@@ -4,12 +4,15 @@
 Este projeto faz parte de um experimento acadêmico para avaliar esforço de compreensão e esforço de modificação em diferentes arquiteturas de software.
 
 ## Sua tarefa
-1. Identificar a arquitetura usada no projeto.
-2. Justificar com base na estrutura do código.
-3. Identificar a classe que deve ser alterada
-4. Implementar a feature de cálculo de descontos no carrinho.
-5. Realizar testes de ponta a ponta para validar a implementação.
-6. Executar os testes até que todos passem.
+1. Identificar a arquitetura usada no projeto.  MVC 
+2. Justificar com base na estrutura do código.  Model controller e serice(serivce está)
+3. Identificar a classe que deve ser alterada  Serviço Carrinho
+4. Implementar a feature de cálculo de descontos no carrinho. Não sei implementar Java na mão
+5. Realizar testes de ponta a ponta para validar a implementação. Muito menos fazer os testes para isso
+6. Executar os testes até que todos passem. Acabou q eu nao tenho nem o java no meu PC
+
+## Foi mal, eu não sei codar em Java, Infelizmente já me rendi a IA e sou refém da Antrhopic
+## Ajustei o serivocarrinho.java mas com ajuda do copilot para o BIG DECIMAL
 
 ## Regras que precisam ser implementadas
 

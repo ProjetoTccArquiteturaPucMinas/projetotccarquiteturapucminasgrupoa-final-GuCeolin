@@ -22,7 +22,8 @@ public class ServicoCarrinho {
     }
 
     public ResumoCarrinho construirResumo(List<SelecaoCarrinho> selecoes) {
-
+        final BigDecimal percentualDesconto = BigDecimal.ZERO;
+        final BigDecimal valorDesconto = BigDecimal.ZERO;
         List<ItemCarrinho> itens = new ArrayList<>();
 
         // =========================
@@ -43,6 +44,7 @@ public class ServicoCarrinho {
                 .map(ItemCarrinho::calcularSubtotal)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
+        BigDecimal total = subtotal;
         return new ResumoCarrinho(itens, subtotal, percentualDesconto, valorDesconto, total);
     }
 }
