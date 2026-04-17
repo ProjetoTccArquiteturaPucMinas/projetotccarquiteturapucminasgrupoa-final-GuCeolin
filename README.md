@@ -1,6 +1,6 @@
 # Sistema de Cálculo de Descontos para Marketplace
 
-## Seu Nome: 
+## Seu Nome: Gustavo Ceolin
 
 ## Visão Geral do Projeto
 
